@@ -1,7 +1,5 @@
-                List<br> | Tuple<br> | Set<br>
-Syntx<br>            []<br>  |  ()<br>   | {}<br>
---------------------------------------<br>
-Duplicates<br>       YES<br> |  YES<br>  | NO<br>
-Ordered<br>          YES<br> |  YES<br>  | NO<br>
-Mutable<br>          YES<br> |  NO<br>   | YES<br>
---------------------------------------<br> 
+| Feature    | List (`[]`) | Tuple (`()`) | Set (`{}`) |
+|------------|-------------|--------------|------------|
+| Duplicates | YES         | YES          | NO         |
+| Ordered    | YES         | YES          | NO         |
+| Mutable    | YES         | NO           | YES        |
