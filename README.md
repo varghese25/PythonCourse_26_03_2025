@@ -1,3 +1,7 @@
+
+
+# Python Data Structures Comparison: List vs Tuple vs Set
+
 | Feature    | List (`[]`) | Tuple (`()`) | Set (`{}`) |
 |------------|-------------|--------------|------------|
 | Duplicates | YES         | YES          | NO         |
