@@ -3,7 +3,11 @@
 
 After installation, instead of jupyter notebook, run:
 
-C:\Users\u>python -m notebook
+# To Start
+C:\Users\u>python -m notebook 
+
+# To Stop
+Ctrl+C
 
 In Python, the -m flag means:
 👉 “Run a module as a script.”
