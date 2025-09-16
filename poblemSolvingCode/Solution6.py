@@ -5,3 +5,5 @@ print(x,y,z)
 # x =10
 # y = 20
 # z = [30,40] * operaters collects the remaining values into a list.
+
+# OutPut is 10 20 [30, 40]
