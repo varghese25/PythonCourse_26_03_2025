@@ -9,3 +9,8 @@ print()
 x=5
 print(f"Number:(x)")
 # f-String substitute x with its value 5.
+
+text = "hello"
+print(text.replace("l","p"))
+
+#Output : ??
