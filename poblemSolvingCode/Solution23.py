@@ -14,3 +14,7 @@ text = "hello"
 print(text.replace("l","p"))
 
 #Output : ??
+
+
+print(any[0,'',False,[]]))
+#output: False
