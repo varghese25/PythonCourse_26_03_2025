@@ -21,3 +21,4 @@ print(any[0,'',False,[]]))
 
 print()
 print(23)
+print(danjo)
