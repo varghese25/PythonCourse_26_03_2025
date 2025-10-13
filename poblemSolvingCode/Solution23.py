@@ -20,3 +20,4 @@ print(any[0,'',False,[]]))
 #output: False
 
 print()
+print()
