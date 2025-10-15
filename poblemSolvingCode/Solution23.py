@@ -48,3 +48,7 @@ Stop.
 ✅ Collected letters: a, c, e
 
 👉 Output: "ace"""
+
+
+s = "Developer"
+print(s[-3:]
