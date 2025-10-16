@@ -52,3 +52,15 @@ Stop.
 
 s = "Developer"
 print(s[-3:]
+
+
+#=====================================#
+
+
+a = [1,2,3]
+b = ['x','y','z']
+print(list(zip(a,b)))
+
+#zip() pairs elements from both lists based on Thier positions.
+
+# Output:(1,'x'),(2,'y'),(3,'z')
