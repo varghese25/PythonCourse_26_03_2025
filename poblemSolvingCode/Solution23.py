@@ -26,8 +26,8 @@
 
 
 #=====================================#
-s = "abcdef"
-print(s[::2])
+# s = "abcdef"
+# print(s[::2])
 
 """
 Step 3: Let’s walk through the string
@@ -50,8 +50,8 @@ Stop.
 👉 Output: "ace"""
 
 
-s = "Developer"
-print(s[-3:]
+# s = "Developer"
+# print(s[-3:])
 
 
 #=====================================#
@@ -64,3 +64,11 @@ print(list(zip(a,b)))
 #zip() pairs elements from both lists based on Thier positions.
 
 # Output:(1,'x'),(2,'y'),(3,'z')
+
+
+
+
+for x in range(1,7):
+    if x % 2 ==0:
+        continue
+    print(x)
