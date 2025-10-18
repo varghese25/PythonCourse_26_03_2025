@@ -68,7 +68,15 @@ print(list(zip(a,b)))
 
 
 
-for x in range(1,7):
-    if x % 2 ==0:
-        continue
-    print(x)
+# for x in range(1,7):
+#     if x % 2 ==0:
+#         continue
+#  print(x)
+
+
+for i in range(1,11):
+        if i == 4:
+            continue
+        if i == 8:
+            break
+        print(i, end = ' ')
