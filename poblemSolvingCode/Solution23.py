@@ -87,3 +87,9 @@ for i in range(1,11):
 
 *x,y=1,2
 print(x,y)
+
+
+
+pairs = [(1, 'a'), (2, 'b'), (3, 'c')]
+a,b = zip(*pairs)
+print(a,b)
