@@ -80,3 +80,10 @@ for i in range(1,11):
         if i == 8:
             break
         print(i, end = ' ')
+
+
+
+
+
+*x,y=1,2
+print(x,y)
