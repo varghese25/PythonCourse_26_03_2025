@@ -74,22 +74,38 @@ print(list(zip(a,b)))
 #  print(x)
 
 
-for i in range(1,11):
-        if i == 4:
-            continue
-        if i == 8:
-            break
-        print(i, end = ' ')
+# for i in range(1,11):
+#         if i == 4:
+#             continue
+#         if i == 8:
+#             break
+#         print(i, end = ' ')
 
 
 
 
 
-*x,y=1,2
-print(x,y)
+# *x,y=1,2
+# print(x,y)
 
 
 
-pairs = [(1, 'a'), (2, 'b'), (3, 'c')]
-a,b = zip(*pairs)
-print(a,b)
+# pairs = [(1, 'a'), (2, 'b'), (3, 'c')]
+# a,b = zip(*pairs)
+# print(a,b)
+
+
+i = 0
+while i < 3:
+    if i == 1:
+        break
+    print(i)
+    i += 1
+else:
+    print("Done")
+
+# Output:0
+# The else block is not executed because the loop is terminated by a break statement.
+# Your statement “0 == 1 is false so it break print zero” is almost correct, but slightly mixed up.
+
+# Correct: 0 == 1 is False → no break → 0 is printed. Then i becomes 1 → i == 1 is True → break → loop exits.
