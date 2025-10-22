@@ -109,3 +109,9 @@ else:
 # Your statement “0 == 1 is false so it break print zero” is almost correct, but slightly mixed up.
 
 # Correct: 0 == 1 is False → no break → 0 is printed. Then i becomes 1 → i == 1 is True → break → loop exits.
+
+
+from math import pi
+print("Print the pi value:",pi)
+
+
