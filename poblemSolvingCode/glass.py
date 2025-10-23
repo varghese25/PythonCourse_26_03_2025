@@ -47,4 +47,3 @@ class Dog(Mammal):  # Dog class inherits Mammal class
 d = Dog()
 d.displayMammalFeatures()  # Mammals give birth to live young ones.
 d.bark()  # Woof Woof
-
