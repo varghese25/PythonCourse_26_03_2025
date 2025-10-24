@@ -38,3 +38,7 @@ print("The reciprocal of",entry,"is",r) # Inside except → error, because r nev
 # os.rmdir("newdir") # remove a directory
 
 
+
+print("-+++++++++++++-")
+
+
