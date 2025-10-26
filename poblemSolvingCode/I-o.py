@@ -47,3 +47,8 @@ https://github.com/LegendofKARTIS
 print("-+++++++++++++-")
 
 
+print("-+++++++++++++-")
+
+
+"""https://youtube.com/shorts/7L_iHEDsnog?si=oI8iEPJZP-5rFhQK"""
+
