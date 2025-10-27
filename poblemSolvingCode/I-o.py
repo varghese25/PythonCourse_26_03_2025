@@ -41,7 +41,7 @@ print("The reciprocal of",entry,"is",r) # Inside except → error, because r nev
 
 print("-+++++++++++++-")
 
-https://github.com/LegendofKARTIS
+# https://github.com/LegendofKARTIS
 
 
 print("-+++++++++++++-")
