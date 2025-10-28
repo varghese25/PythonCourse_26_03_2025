@@ -95,14 +95,14 @@ print(list(zip(a,b)))
 # print(a,b)
 
 
-i = 0
-while i < 3:
-    if i == 1:
-        break
-    print(i)
-    i += 1
-else:
-    print("Done")
+# i = 0
+# while i < 3:
+#     if i == 1:
+#         break
+#     print(i)
+#     i += 1
+# else:
+#     print("Done")
 
 # Output:0
 # The else block is not executed because the loop is terminated by a break statement.
@@ -111,7 +111,10 @@ else:
 # Correct: 0 == 1 is False → no break → 0 is printed. Then i becomes 1 → i == 1 is True → break → loop exits.
 
 
-from math import pi
-print("Print the pi value:",pi)
+# from math import pi
+# print("Print the pi value:",pi)
+
+items = ['45','abc','10','xyz']
+print(list(filter(str.isdigit, items)))
 
 
