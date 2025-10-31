@@ -4,3 +4,5 @@ print(name[0])
 print(name[-1]) # last character 
 print(name[-7]) # first character
 print(name[0:]) # full string
+
+print(name[::])
