@@ -51,3 +51,6 @@ step = -3 (decreasing)
 
 
 """
+
+name: str = 'Bob'
+name(f'{name:_^9}')  # Centered with underscores to fill width of 9
