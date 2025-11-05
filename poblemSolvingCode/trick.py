@@ -54,3 +54,20 @@ step = -3 (decreasing)
 
 name: str = 'Bob'
 name(f'{name:_^9}')  # Centered with underscores to fill width of 9
+
+
+
+name = 'Bob'
+print(f'{name=}')
+
+""" 
+a.Bob'
+b.name='Bob'
+c.name=
+d.Bob= 
+
+Output: b 
+Explanation 
+
+The f-String trick used for quick debugging 
+"""
