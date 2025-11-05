@@ -36,13 +36,11 @@
 
 
 
-for i in range(10, 0, -3):
- print(i)
- """range(start, stop, step)
+# for i in range(10, 0, -3):
+#  print(i)
  
- 
- 
- start = 10
+"""range(start, stop, step)
+start = 10
 
 stop = 0 (exclusive) → don’t go below 0
 
@@ -52,8 +50,8 @@ step = -3 (decreasing)
 
 """
 
-name: str = 'Bob'
-name(f'{name:_^9}')  # Centered with underscores to fill width of 9
+# name: str = 'Bob'
+# name(f'{name:_^9}')  # Centered with underscores to fill width of 9
 
 
 
@@ -71,3 +69,14 @@ Explanation
 
 The f-String trick used for quick debugging 
 """
+
+
+def func(x=[]):
+    x.append(1)
+    return x
+
+print(func())
+print(func())
+print(func())
+
+
