@@ -6,10 +6,10 @@
 Examples: list.appends(), dict.items(),str.upper(),set.add()  etc."""
 
 # method (inside a  class)
-class student:
-    def greet(self):
-        print("Hello from student class")
+class student: # student class is object
+    def greet(self, name):  # 'self' + 'name' are parameters
+        print("Hello from student name is: ", name)
 
 # Method call
 obj = student()
-obj.greet()  # method call
+obj.greet("Varghese")  # method call,  # "Varghese" is the argument

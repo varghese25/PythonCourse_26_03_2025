@@ -56,3 +56,13 @@ print('---------------------------------------------------------------------')
 print(calendar.weekday(2025, 12, 25)) # 3 means Thursday
 
 # 0: Monday, 1: Tuesday, 2: Wednesday, 3: Thursday, 4: Friday, 5: Saturday, 6: Sunday
+
+
+
+# self
+Can you use another name instead of self?
+
+✅ Yes, absolutely — self is just a naming convention, not a keyword.
+
+Python, developers always use self for readability and consistency.
+self -> Refers to the current instance of the class
