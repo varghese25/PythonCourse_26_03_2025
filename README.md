@@ -1,3 +1,17 @@
+# Meaning of def **init**
+
+\*\* -- def → means define a function.
+
+\*\* **init** → means initialize (short form of initializer).
+
+-- Exmple constructor.py
+
+# What are the three main types of methods in a Python class ?
+
+--1> Instance Methods - work with object data using self.
+--2> Class Methods - work with class-level data using cls.
+--3> Static Methods - general utility methods, not tied to class or instance data.
+
 # Run Jupyter (without worrying about PATH)
 
 After installation, instead of jupyter notebook, run:
@@ -57,9 +71,8 @@ print(calendar.weekday(2025, 12, 25)) # 3 means Thursday
 
 # 0: Monday, 1: Tuesday, 2: Wednesday, 3: Thursday, 4: Friday, 5: Saturday, 6: Sunday
 
-
-
 # self
+
 Can you use another name instead of self?
 
 ✅ Yes, absolutely — self is just a naming convention, not a keyword.
