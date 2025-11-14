@@ -84,3 +84,11 @@ outer()  # only need to call outer, if comment this line no output will be there
 # The nested function inner() is never defined or called, so "Hello from inner function!" is also never printed
 
 # Result: no output in the console.
+
+
+# Summary
+"""Concept	                         What happens in your code
+def outer():	                      Function object is created, body not executed
+Nested def inner():	                  Created only when outer() runs
+inner() inside outer()	              Runs only when outer() is executed
+Commented outer() call	               Nothing executes → no output"""
