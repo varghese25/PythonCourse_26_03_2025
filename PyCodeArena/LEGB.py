@@ -91,4 +91,20 @@ outer()  # only need to call outer, if comment this line no output will be there
 def outer():	                      Function object is created, body not executed
 Nested def inner():	                  Created only when outer() runs
 inner() inside outer()	              Runs only when outer() is executed
-Commented outer() call	               Nothing executes → no output"""
+Commented outer() call	               Nothing executes → no output
+
+
+
+Python Execution Flow Summary
+
+Step	                 Python Behavior
+Top-level statements	 Run immediately
+Function/Class definition	Create objects, body not executed
+Function call	Executes body line by line
+Variable lookup	Happens at the point of use
+Nested functions	Defined/executed only when outer function runs
+Loops/Conditionals	Evaluated line by line
+
+
+
+"""
