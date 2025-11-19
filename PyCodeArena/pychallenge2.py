@@ -1,11 +1,13 @@
-def generator():
-    for i in range(3):
-      yield i
-g = generator()
-print(next(g))
+# def generator():
+#     for i in range(3):
+#       yield i
+# g = generator()
+# print(next(g))
 
-"""
-A.0
-B. 012
-c. 0123
-d. None"""
+# """
+# A.0
+# B. 012
+# c. 0123
+# d. None"""
+
+print('Python'[::-1][::-1]) 
