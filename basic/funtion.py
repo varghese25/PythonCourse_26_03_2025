@@ -15,6 +15,24 @@ print(greet("varghese")) # 'varghese' → argument
 
 
 
+Def fun():
+return 5,10
+
+print(type(fun()))
+
+
+"""
+Error 
+tuple
+set
+list 
+"""
+
+// return multiple values in python as actually returns a tuples
+
+
+
+
 """
 Summary:
 
