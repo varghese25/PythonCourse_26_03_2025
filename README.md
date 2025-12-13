@@ -1,3 +1,15 @@
+| Structure  | Symbol | Meaning            |
+| ---------- | ------ | ------------------ |
+| Dictionary | `:`    | mapping / relation |
+| Set        | `,`    | collection         |
+| List       | `[]`   | ordered items      |
+| Tuple      | `()`   | fixed items        |
+
+# One sentence to remember forever <br>
+
+- If you are pairing things → use :<br>
+- If you are grouping things → use ,<br>
+
 # Meaning of def **init**
 
 \*\* -- def → means define a function.
