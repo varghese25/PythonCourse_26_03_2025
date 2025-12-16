@@ -7,3 +7,5 @@ print(name[0:]) # full string
 
 print(name[::])
 print(name[0:0])
+
+print(_-----------------)
