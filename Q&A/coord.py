@@ -10,7 +10,7 @@ class Coord:
         return f'({self.x}, {self.y}, {self.z})'
      
 coord = Coord(0,0,0)
-c1 = coord
+c1 = coord    #copy.copy(coord) "" Her i dint change to anythin if change copy.copy(coord) then output will be (0,0,0) ""
 c2 = copy.copy(coord)
 c3 = copy.deepcopy(coord)
 
@@ -20,3 +20,4 @@ c3.z =3
 
 print(coord)
              
+""" OutPut is (1, 0, 0)"""
