@@ -32,6 +32,10 @@ After installation, instead of jupyter notebook, run:
 
 C:\Users\u>python -m notebook
 
+# Path
+
+C:\Users\u\PythonCourse_26_03_2025\.ipynb_checkpoints
+
 # To Stop
 
 Ctrl+C
