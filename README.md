@@ -1,3 +1,27 @@
+ 
+
+
+ #  Code Example
+
+ a = 5
+ b = '3'
+print(a*b)
+
+-- Number * Number -> mathematical multiplication
+-- Number * String -> string repetition
+-- String * Number -> string repetition
+-- String * String -> Error
+-- String + String -> string concatenation
+-- String + Number -> Error 
+
+
+
+
+
+
+
+
+
 | Structure  | Symbol | Meaning            |
 | ---------- | ------ | ------------------ |
 | Dictionary | `:`    | mapping / relation |
