@@ -21,3 +21,13 @@ print(b)
 
 # NB: b + (4) Python sees it as tuple + int
 # Tuples can only be concatenated with other tuples, not integers. 
+
+
+# Set
+a = {1,2,3}
+b = a
+b = b | {4,}
+print(a)
+print(b)
+
+# Key point: | (union) returns a new set; it does not modify in-place. To modify in-place, you would use b |= {4,}
