@@ -14,26 +14,27 @@
  -- TimeOut Error
  -- Recurison Error
 
+
 # Python Error Examples
 
-A quick reference for common Python errors with short real-world examples.
+Quick reference of common Python errors with short real-world examples.
 
-| Error Type           | Example |
-|---------------------|---------|
-| **Syntax Error**     | `for i in range(5) print(i)`  <!-- Missing colon --> |
-| **Name Error**       | `print(user_name)`  <!-- user_name not defined --> |
-| **Type Error**       | `age = 25 + " years"`  <!-- Cannot add int and str --> |
-| **Index Error**      | `nums = [1,2]; print(nums[3])`  <!-- Index out of range --> |
-| **Value Error**      | `int("abc")`  <!-- Cannot convert to integer --> |
-| **Key Error**        | `data = {"name":"Tiju"}; print(data["age"])` |
-| **Attribute Error**  | `"hello".push("!")`  <!-- Strings have no push() --> |
-| **Indentation Error**| `if True:\nprint("Hi")`  <!-- Should be indented --> |
-| **IO Error**         | `f = open("file.txt"); f.close(); f.read()` |
-| **ZeroDivision Error** | `result = 10 / 0` |
-| **FileNotFound Error** | `open("missing.txt")` |
-| **Import Error**     | `import fake_module` |
-| **Timeout Error**    | `import socket; socket.setdefaulttimeout(0.001)` |
-| **Recursion Error**  | `def f(): f(); f(); f()` |
+| Error Type           | Example | Cause |
+|---------------------|---------|-------|
+| **Syntax Error**     | `for i in range(5) print(i)` | Missing colon |
+| **Name Error**       | `print(user_name)` | Variable not defined |
+| **Type Error**       | `25 + " years"` | Wrong type operation |
+| **Index Error**      | `[1,2][3]` | Index out of range |
+| **Value Error**      | `int("abc")` | Invalid value for conversion |
+| **Key Error**        | `{"name":"Tiju"}["age"]` | Key not in dictionary |
+| **Attribute Error**  | `"hello".push("!")` | Object has no such method |
+| **Indentation Error**| `if True:\nprint("Hi")` | Wrong indentation |
+| **IO Error**         | `f=open("file.txt"); f.close(); f.read()` | File operation failed |
+| **ZeroDivision Error** | `10 / 0` | Division by zero |
+| **FileNotFound Error** | `open("missing.txt")` | File does not exist |
+| **Import Error**     | `import fake_module` | Module not found |
+| **Timeout Error**    | `socket.setdefaulttimeout(0.001)` | Operation timed out |
+| **Recursion Error**  | `def f(): f(); f(); f()` | Infinite recursion |
 
 
 
