@@ -15,6 +15,29 @@
  -- Recurison Error
 
 
+ # Python Error Examples
+
+Quick reference of common Python errors with short real-world examples.
+
+| Error Type           | Example |
+|---------------------|---------|
+| **Syntax Error**     | `for i in range(5) print(i)` |
+| **Name Error**       | `print(user_name)` |
+| **Type Error**       | `25 + " years"` |
+| **Index Error**      | `[1,2][3]` |
+| **Value Error**      | `int("abc")` |
+| **Key Error**        | `{"name":"Tiju"}["age"]` |
+| **Attribute Error**  | `"hello".push("!")` |
+| **Indentation Error**| `if True:\nprint("Hi")` |
+| **IO Error**         | `f=open("file.txt"); f.close(); f.read()` |
+| **ZeroDivision Error** | `10 / 0` |
+| **FileNotFound Error** | `open("missing.txt")` |
+| **Import Error**     | `import fake_module` |
+| **Timeout Error**    | `socket.setdefaulttimeout(0.001)` |
+| **Recursion Error**  | `def f(): f(); f(); f()` |
+
+
+
  #  Code Example
 
  a = 5
