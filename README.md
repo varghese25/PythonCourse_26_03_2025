@@ -14,27 +14,27 @@
  -- TimeOut Error
  -- Recurison Error
 
+# Python Error Examples
 
- # Python Error Examples
-
-Quick reference of common Python errors with short real-world examples.
+A quick reference for common Python errors with short real-world examples.
 
 | Error Type           | Example |
 |---------------------|---------|
-| **Syntax Error**     | `for i in range(5) print(i)` |
-| **Name Error**       | `print(user_name)` |
-| **Type Error**       | `25 + " years"` |
-| **Index Error**      | `[1,2][3]` |
-| **Value Error**      | `int("abc")` |
-| **Key Error**        | `{"name":"Tiju"}["age"]` |
-| **Attribute Error**  | `"hello".push("!")` |
-| **Indentation Error**| `if True:\nprint("Hi")` |
-| **IO Error**         | `f=open("file.txt"); f.close(); f.read()` |
-| **ZeroDivision Error** | `10 / 0` |
+| **Syntax Error**     | `for i in range(5) print(i)`  <!-- Missing colon --> |
+| **Name Error**       | `print(user_name)`  <!-- user_name not defined --> |
+| **Type Error**       | `age = 25 + " years"`  <!-- Cannot add int and str --> |
+| **Index Error**      | `nums = [1,2]; print(nums[3])`  <!-- Index out of range --> |
+| **Value Error**      | `int("abc")`  <!-- Cannot convert to integer --> |
+| **Key Error**        | `data = {"name":"Tiju"}; print(data["age"])` |
+| **Attribute Error**  | `"hello".push("!")`  <!-- Strings have no push() --> |
+| **Indentation Error**| `if True:\nprint("Hi")`  <!-- Should be indented --> |
+| **IO Error**         | `f = open("file.txt"); f.close(); f.read()` |
+| **ZeroDivision Error** | `result = 10 / 0` |
 | **FileNotFound Error** | `open("missing.txt")` |
 | **Import Error**     | `import fake_module` |
-| **Timeout Error**    | `socket.setdefaulttimeout(0.001)` |
+| **Timeout Error**    | `import socket; socket.setdefaulttimeout(0.001)` |
 | **Recursion Error**  | `def f(): f(); f(); f()` |
+
 
 
 
