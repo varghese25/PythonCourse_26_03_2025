@@ -1,20 +1,3 @@
- # Python Error List
- -- Syntax Error
- -- Name Error
- -- Type Error
- -- Index Error
- -- Value Error
- -- Key Error
- -- Attribute Error
- -- Indentation Error
- -- IO Error
- -- ZeroDivision Error
- -- FileNotFound Error
- -- Import Error
- -- TimeOut Error
- -- Recurison Error
-
-
 # Python Error Examples
 
 Quick reference of common Python errors with short real-world examples.
