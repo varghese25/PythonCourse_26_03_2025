@@ -12,3 +12,7 @@ c = a /b # Output: 5.0 (the result of division is a float)
 d = a // b # Output: 5 (the result of floor division is an integer)    
 print(c)
 print(d)
+ 
+
+print(b * 0)
+
