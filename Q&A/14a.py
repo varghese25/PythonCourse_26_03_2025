@@ -6,13 +6,16 @@
 # print(a * -1)
 
 
-a = 25
-b = 5
-c = a /b # Output: 5.0 (the result of division is a float)
-d = a // b # Output: 5 (the result of floor division is an integer)    
-print(c)
-print(d)
+# a = 25
+# b = 5
+# c = a /b # Output: 5.0 (the result of division is a float)
+# d = a // b # Output: 5 (the result of floor division is an integer)    
+# print(c)
+# print(d)
  
 
-print(b * 0)
+# print(b * 0)
 
+
+print(type(lambda x:x))
+#  A lambda is just a function object with no name.
