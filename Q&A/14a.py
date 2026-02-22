@@ -19,3 +19,8 @@
 
 print(type(lambda x:x))
 #  A lambda is just a function object with no name.
+
+print("10"+10)
+# Python is a strongly typed language, meaning we must ensure
+# that types are compatible when performing certain operations.
+# The Codee above will raise a TypeError because we cannot concatenate a string ("10") with an integer (10) without explicitly converting one of them to the other type.
