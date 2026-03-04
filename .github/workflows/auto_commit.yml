@@ -1,5 +1,8 @@
 name: Auto Commit Twice Daily
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: "0 5 * * *"
