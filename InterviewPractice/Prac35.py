@@ -38,4 +38,8 @@ Final Answer:
 3
 
 
+Explanation:
+This code outputs 3 because if first accessess the last element of the list ('C3'),
+then the last character of that string ('3'), and finally the last character of that single-character string (stil '3').
+
 """
